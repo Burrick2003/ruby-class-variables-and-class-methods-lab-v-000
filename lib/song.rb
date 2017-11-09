@@ -19,19 +19,21 @@ class Song
     end
 
     def self.genres #returns array of genres, no duplicates
-      @@genres
+      output = []
+      @@genres.each do |element}
+        if output.include?(element)
+          output << element
+        end
     end
 
+    def self.artists #returns array of unique artists (no duplicates)
+    end
 
-def self.artists #returns array of unique artists (no duplicates)
-end
+    def self.genre_count #returns hash with keys(genre) value(number of songs)
+    end
 
-def self.genre_count #returns hash with keys(genre) value(number of songs)
-end
+    def self.artist_count #same thing
 
-def self.artist_count #same thing
-
-
-end
+    end
 
 end

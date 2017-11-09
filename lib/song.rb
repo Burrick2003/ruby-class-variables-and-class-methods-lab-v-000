@@ -14,23 +14,23 @@ class Song
     end
 
 
-    def count #returns total number of songs
+    def self.count #returns total number of songs
       @@count
     end
 
-    def genres #returns array of genres, no duplicates
+    def self.genres #returns array of genres, no duplicates
       temp = @@genres
       temp
     end
 
 
-def artists #returns array of unique artists (no duplicates)
+def self.artists #returns array of unique artists (no duplicates)
 end
 
-def genre_count #returns hash with keys(genre) value(number of songs)
+def self.genre_count #returns hash with keys(genre) value(number of songs)
 end
 
-def artist_count #same thing
+def self.artist_count #same thing
 
 
 end

@@ -29,6 +29,13 @@ class Song
     end
 
     def self.artists #returns array of unique artists (no duplicates)
+      output = []
+        @@artists.each do |element|
+          if output.include?(element) == false
+            output << element
+          end
+        end
+      output
     end
 
     def self.genre_count #returns hash with keys(genre) value(number of songs)

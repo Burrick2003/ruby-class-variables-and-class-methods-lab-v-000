@@ -1,12 +1,13 @@
 class Song
   @@count = 0
 
-  attr_accessor :artist, :genre, :name
-def initialize #adds to genre array, artists array,
+  attr_accessor :name, :artist, :genre
+def initialize(name, artist, genre) #adds to genre array, artists array,
   @@count += 1
-  @artist = []
-  @genre = []
-  @name = []
+  @name = name
+  @artist = artist
+  @genre = genre
+  
 end
 
 

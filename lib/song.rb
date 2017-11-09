@@ -14,7 +14,7 @@ class Song
 
 
     def count #total number of songs
-
+      @@count
     end
 
     def genres #returns array of genres, no duplicates

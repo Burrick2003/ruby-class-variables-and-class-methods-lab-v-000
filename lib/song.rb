@@ -48,7 +48,7 @@ class Song
           end
         end
         output
-      
+
     end
 
     def self.artist_count #same thing

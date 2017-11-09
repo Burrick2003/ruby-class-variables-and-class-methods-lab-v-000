@@ -52,6 +52,15 @@ class Song
     end
 
     def self.artist_count #same thing
+      output = {}
+        @@artists.each do |element|
+          if output[element] != nil
+            output[element] += 1
+          else
+            output[element] = 1
+          end
+        end
+        output
 
     end
 

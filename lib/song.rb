@@ -41,9 +41,9 @@ class Song
     def self.genre_count #returns hash with keys(genre) value(number of songs)
       output = {}
         @@genres.each do |element|
-          if output[element] != nil
+          if output[element] != nil #adds to a preexisting bucket, same as earlier lab
             output[element] += 1
-          else
+          else #forms buckets if that key is missing from output (first instance)
             output[element] = 1
           end
         end
@@ -54,9 +54,9 @@ class Song
     def self.artist_count #same thing
       output = {}
         @@artists.each do |element|
-          if output[element] != nil
+          if output[element] != nil #adds to a preexisting bucket
             output[element] += 1
-          else
+          else #forms buckets
             output[element] = 1
           end
         end

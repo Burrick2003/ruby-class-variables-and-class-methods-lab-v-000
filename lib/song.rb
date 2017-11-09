@@ -2,20 +2,23 @@ class Song
   @@count = 0
 
   attr_accessor :name, :artist, :genre
-def initialize(name, artist, genre) #adds to genre array, artists array,
-  @@count += 1
-  @name = name
-  @artist = artist
-  @genre = genre
 
-end
+    def initialize(name, artist, genre) #adds to genre array, artists array,
+      @@count += 1
+      @name = name
+      @artist = artist
+      @genre = genre
+
+    end
 
 
-def count #total number of songs
-end
+    def count #total number of songs
 
-def genres #returns array of genres, no duplicates
-end
+    end
+
+    def genres #returns array of genres, no duplicates
+
+    end
 
 
 def artists #returns array of unique artists (no duplicates)

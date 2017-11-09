@@ -7,7 +7,7 @@ def initialize(name, artist, genre) #adds to genre array, artists array,
   @name = name
   @artist = artist
   @genre = genre
-  
+
 end
 
 

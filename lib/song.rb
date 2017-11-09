@@ -25,6 +25,7 @@ class Song
             output << element
           end
         end
+      output
     end
 
     def self.artists #returns array of unique artists (no duplicates)

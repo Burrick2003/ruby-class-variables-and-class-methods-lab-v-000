@@ -1,6 +1,6 @@
 class Song
   @@count = 0
-  
+
   attr_accessor :artist, :genre, :name
 def initialize #adds to genre array, artists array,
   @@count += 1
@@ -26,5 +26,6 @@ end
 def artist_count #same thing
 
 
+end
 
 end

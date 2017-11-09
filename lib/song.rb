@@ -14,12 +14,12 @@ class Song
     end
 
 
-    def count #total number of songs
+    def count #returns total number of songs
       @@count
     end
 
     def genres #returns array of genres, no duplicates
-
+      @@genres
     end
 
 

@@ -19,8 +19,7 @@ class Song
     end
 
     def self.genres #returns array of genres, no duplicates
-      temp = @@genres
-      temp
+      @@genres
     end
 
 

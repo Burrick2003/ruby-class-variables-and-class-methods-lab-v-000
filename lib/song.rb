@@ -20,7 +20,7 @@ class Song
 
     def self.genres #returns array of genres, no duplicates
       output = []
-      @@genres.each do |element}
+      @@genres.each do |element|
         if output.include?(element)
           output << element
         end
